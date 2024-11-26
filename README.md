@@ -1,4 +1,4 @@
-<h1 align="center"> WorFBench </h1>
+<h1 align="center"> WorfBench </h1>
 <h3 align="center"> Benchmarking Agentic Workflow Generation </h3>
 
 <p align="center">
