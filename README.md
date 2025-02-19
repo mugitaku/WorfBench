@@ -2,11 +2,11 @@
 <h3 align="center"> Benchmarking Agentic Workflow Generation </h3>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2410.07869">📄arXiv</a> •
-  <a href="https://huggingface.co/papers/2410.07869">🤗HFPaper</a> •
-  <a href="https://zjunlp.github.io/project/WorFBench/">🌐Web</a> •
-  <a href="https://huggingface.co/collections/zjunlp/worfbench-66fc28b8ac1c8e2672192ea1">📊Dataset</a> •
-  <a href="https://notebooklm.google.com/notebook/a4c13fd7-29da-462c-a47e-69a26c0d326e/audio">🎧NotebookLM Audio</a>
+  <a href="https://arxiv.org/abs/2410.07869" target="_blank">📄arXiv</a> •
+  <a href="https://huggingface.co/papers/2410.07869" target="_blank">🤗HFPaper</a> •
+  <a href="https://zjunlp.github.io/project/WorFBench/" target="_blank">🌐Web</a> •
+  <a href="https://huggingface.co/collections/zjunlp/worfbench-66fc28b8ac1c8e2672192ea1" target="_blank">📊Dataset</a> •
+  <a href="https://notebooklm.google.com/notebook/a4c13fd7-29da-462c-a47e-69a26c0d326e/audio" target="_blank">🎧NotebookLM Audio</a>
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/WorFBench) 
