@@ -68,14 +68,14 @@ Generate workflow with local llm api
 tasks=(wikihow toolbench toolalpaca lumos alfworld webshop os)
 model_name=your_model_name
 for task in ${tasks[@]}; do
+    mkdir -p ./pred_traj/${task}
     python node_eval.py \
         --task gen_workflow \
         --model_name ${model_name} \
         --gold_path ./gold_traj/${task}/graph_eval.json \
         --pred_path ./pred_traj/${task}/${model_name}/graph_eval_two_shot.json\
         --task_type ${task} \
-        --few_shot \
-
+        --few_shot
 done
 ```
 
@@ -96,8 +96,7 @@ for task in ${tasks[@]}; do
         --eval_model all-mpnet-base-v2 \
         --eval_output ./eval_result/${model_name}_${task}_graph_eval_two_shot.json \
         --eval_type node \
-        --task_type ${task} \
-
+        --task_type ${task}
 done
 ```
 
